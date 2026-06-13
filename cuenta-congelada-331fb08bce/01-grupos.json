@@ -1,0 +1,20 @@
+{
+  "type": "sello-personal-por-fase",
+  "version": 1,
+  "account": "Mateo Cunsolo",
+  "phaseKey": "grupos",
+  "phaseLabel": "Fase de grupos",
+  "phases": [
+    "GROUPS"
+  ],
+  "sealedAt": "2026-06-13T22:08:29.815Z",
+  "hash": "a737e38e303aab1158e86f39b7eef333f8241b19596c8fb149a43e6a6e7c5425",
+  "predictionCount": 213,
+  "countsByProde": {
+    "H58E8XDKUY": 69,
+    "WKY2EGNJSX": 72,
+    "XEWFRL28FZ": 72
+  },
+  "specialsIncluded": true,
+  "algorithm": "sha256 sobre lineas `<codigoPublicoProde>|<matchExternalId>|<golesLocal>-<golesVisitante>|D:<0|1>` ordenadas por (codigo, externalId); si la caja incluye especiales, al final `SPECIAL|<codigoPublicoProde>|<campeon>|<goleador>` ordenadas por codigo; todo unido con \\n"
+}
