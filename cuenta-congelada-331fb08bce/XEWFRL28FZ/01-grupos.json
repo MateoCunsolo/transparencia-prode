@@ -1,0 +1,25 @@
+{
+  "type": "sello-personal-por-fase",
+  "version": 1,
+  "account": "Mateo Cunsolo",
+  "phaseKey": "grupos",
+  "phaseLabel": "Fase de grupos",
+  "phases": [
+    "GROUPS"
+  ],
+  "sealedAt": "2026-06-13T22:08:29.815Z",
+  "publishedAt": "2026-06-20",
+  "hash": "8f30b6380e1471c5a28a778d5229169e5b6d7f9c30f3823f539b109980678c43",
+  "predictionCount": 72,
+  "countsByProde": {
+    "XEWFRL28FZ": 72
+  },
+  "specialsIncluded": true,
+  "algorithm": "sha256 sobre lineas `<codigoPublicoProde>|<matchExternalId>|<golesLocal>-<golesVisitante>|D:<0|1>` ordenadas por (codigo, externalId); si la caja incluye especiales, al final `SPECIAL|<codigoPublicoProde>|<campeon>|<goleador>` ordenadas por codigo; todo unido con \\n",
+  "bridge": {
+    "combinedHash": "a737e38e303aab1158e86f39b7eef333f8241b19596c8fb149a43e6a6e7c5425",
+    "combinedFile": "cuenta-congelada-331fb08bce/01-grupos.json",
+    "preimageFile": "cuenta-congelada-331fb08bce/01-grupos.preimagen.txt",
+    "detalle": "sha256 del preimagen = combinedHash (=01-grupos.json, 13/06); subconjunto XEWFRL28FZ = hash."
+  }
+}
