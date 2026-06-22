@@ -1,0 +1,9 @@
+{
+  "type": "sello-especiales",
+  "version": 1,
+  "prodeCode": "WKY2EGNJSX",
+  "sealedAt": "2026-06-22T22:56:24.586Z",
+  "hash": "ab9b86869d833b95d735ac591d7a5a7dd83571d707aec148e72090d5341710f2",
+  "count": 75,
+  "algorithm": "sha256 sobre lineas `<userId>|<campeon>|<goleador>` (vacios = string vacio) ordenadas por userId asc; unidas con \\n"
+}
