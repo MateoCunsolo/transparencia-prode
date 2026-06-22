@@ -1,0 +1,9 @@
+{
+  "type": "sello-especiales",
+  "version": 1,
+  "prodeCode": "XEWFRL28FZ",
+  "sealedAt": "2026-06-22T22:55:38.924Z",
+  "hash": "9d61df7b47ee3efc4e4699f9dc9e8bbd3274d6c803a2f5d0f9cf29eb9c3d99cb",
+  "count": 61,
+  "algorithm": "sha256 sobre lineas `<userId>|<campeon>|<goleador>` (vacios = string vacio) ordenadas por userId asc; unidas con \\n"
+}
