@@ -1,0 +1,18 @@
+{
+  "type": "sello-personal-por-fase",
+  "version": 1,
+  "account": "Mateo Cunsolo",
+  "phaseKey": "dieciseisavos",
+  "phaseLabel": "Dieciseisavos",
+  "phases": [
+    "R32"
+  ],
+  "sealedAt": "2026-06-28T04:07:23.384Z",
+  "hash": "9f0f56a82df851c1228ff4c071dcb1c47bfe00c204acd31af4555c472678a344",
+  "predictionCount": 16,
+  "countsByProde": {
+    "XEWFRL28FZ": 16
+  },
+  "specialsIncluded": false,
+  "algorithm": "sha256 sobre lineas `<codigoPublicoProde>|<matchExternalId>|<golesLocal>-<golesVisitante>|D:<0|1>` ordenadas por (codigo, externalId); si la caja incluye especiales, al final `SPECIAL|<codigoPublicoProde>|<campeon>|<goleador>` ordenadas por codigo; todo unido con \\n"
+}
