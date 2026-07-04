@@ -1,0 +1,18 @@
+{
+  "type": "sello-personal-por-fase",
+  "version": 1,
+  "account": "Mateo Cunsolo",
+  "phaseKey": "octavos",
+  "phaseLabel": "Octavos",
+  "phases": [
+    "R16"
+  ],
+  "sealedAt": "2026-07-04T10:44:07.038Z",
+  "hash": "a3b5aad60237202f036452f4e42370f3727f0201593198fe8d4103286efb2f6d",
+  "predictionCount": 8,
+  "countsByProde": {
+    "XEWFRL28FZ": 8
+  },
+  "specialsIncluded": false,
+  "algorithm": "sha256 sobre lineas `<codigoPublicoProde>|<matchExternalId>|<golesLocal>-<golesVisitante>|D:<0|1>` ordenadas por (codigo, externalId); si la caja incluye especiales, al final `SPECIAL|<codigoPublicoProde>|<campeon>|<goleador>` ordenadas por codigo; todo unido con \\n"
+}
