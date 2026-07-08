@@ -1,0 +1,18 @@
+{
+  "type": "sello-personal-por-fase",
+  "version": 1,
+  "account": "Mateo Cunsolo",
+  "phaseKey": "cuartos",
+  "phaseLabel": "Cuartos de final",
+  "phases": [
+    "QF"
+  ],
+  "sealedAt": "2026-07-08T03:54:18.675Z",
+  "hash": "e1fc615e1ccc6ccb09672bed3b80352f8ae084a75fe6e6748bd3a723b69e0fa2",
+  "predictionCount": 4,
+  "countsByProde": {
+    "XEWFRL28FZ": 4
+  },
+  "specialsIncluded": false,
+  "algorithm": "sha256 sobre lineas `<codigoPublicoProde>|<matchExternalId>|<golesLocal>-<golesVisitante>|D:<0|1>` ordenadas por (codigo, externalId); si la caja incluye especiales, al final `SPECIAL|<codigoPublicoProde>|<campeon>|<goleador>` ordenadas por codigo; todo unido con \\n"
+}
