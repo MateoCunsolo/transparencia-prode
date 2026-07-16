@@ -1,0 +1,19 @@
+{
+  "type": "sello-personal-por-fase",
+  "version": 1,
+  "account": "Mateo Cunsolo",
+  "phaseKey": "final",
+  "phaseLabel": "Final y 3er puesto",
+  "phases": [
+    "FINAL",
+    "THIRD_PLACE"
+  ],
+  "sealedAt": "2026-07-16T13:58:07.001Z",
+  "hash": "ff2797eae6556e7a0835b4626df1aec3435fcc701b8241f94672df6ca5bd441c",
+  "predictionCount": 2,
+  "countsByProde": {
+    "XEWFRL28FZ": 2
+  },
+  "specialsIncluded": false,
+  "algorithm": "sha256 sobre lineas `<codigoPublicoProde>|<matchExternalId>|<golesLocal>-<golesVisitante>|D:<0|1>` ordenadas por (codigo, externalId); si la caja incluye especiales, al final `SPECIAL|<codigoPublicoProde>|<campeon>|<goleador>` ordenadas por codigo; todo unido con \\n"
+}
