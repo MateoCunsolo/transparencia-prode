@@ -1,0 +1,18 @@
+{
+  "type": "sello-personal-por-fase",
+  "version": 1,
+  "account": "Mateo Cunsolo",
+  "phaseKey": "semifinales",
+  "phaseLabel": "Semifinales",
+  "phases": [
+    "SF"
+  ],
+  "sealedAt": "2026-07-16T13:58:05.464Z",
+  "hash": "ecf384c6384861d9c96b79a1ad3cdfcea1fdd6b1c4e1f34a36665fc365fb4f0b",
+  "predictionCount": 2,
+  "countsByProde": {
+    "XEWFRL28FZ": 2
+  },
+  "specialsIncluded": false,
+  "algorithm": "sha256 sobre lineas `<codigoPublicoProde>|<matchExternalId>|<golesLocal>-<golesVisitante>|D:<0|1>` ordenadas por (codigo, externalId); si la caja incluye especiales, al final `SPECIAL|<codigoPublicoProde>|<campeon>|<goleador>` ordenadas por codigo; todo unido con \\n"
+}
